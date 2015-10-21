@@ -8,23 +8,46 @@ and open the template in the editor.
     Author     : Ben Hay and Haris Cesko
 */
 
-html {
-    font-family: Ariel, Levetica, sans-serif;  
+.alignRight {
+    text-align: right;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+body {
+   width: 50%;
+   margin: 0 auto 0 auto; 
 }
 
 h1 {
     color: blue;
+    text-align: left;
+    padding-left: 5%
 }
 
-
-
-#alignRight {
-    text-align: right;
+html {
+    font-family: Ariel, Levetica, sans-serif; 
+    text-align: center;
 }
 
-#alignLeft {
+footer {
+    border-style: solid;
+    border-color: blue;
     text-align: left;
 }
+
+footer p {
+    padding-left: 5%;
+}
+
+section {
+    border-style: solid; 
+    border-color: blue;
+    border-bottom: none;
+}
+
 
 @media (max-width: 400px){
     
